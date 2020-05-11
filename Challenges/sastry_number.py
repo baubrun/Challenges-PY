@@ -41,6 +41,6 @@ def isSastry(number):
 
 print(isSastry(183))
 print(isSastry(5))
-# print(isSastry(184))
-# print(isSastry(106755))
+print(isSastry(184))
+print(isSastry(106755))
 

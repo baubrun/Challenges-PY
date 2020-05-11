@@ -24,30 +24,11 @@ constraints:
 1 <= s <= 100
 1 <= n <= 10 ** 12
 """
+
+
 n = 10
 s = "aba"
-# n = 1000000000000
-# s = "a"
-# n = 10
-# s = "abcac"
-# n = 25
-# s = "ab"
-# n = 2
-# s = "abasdf"
 
-# n = 1
-# s = "a"
-
-"""
-count a(s) in prefix then
-    because init string will be repeated 
-        find out how many letters will be remainder from range of string created:
-          s[:n % len(s)]
-            then count a(s) in remainder
-
-"""
-# bon ans:     
-# return s.count("a") * (n // len(s)) + s[:n % len(s)].count("a")
 
 def repeatedString(s, n):
     prefix_a = s.count("a")

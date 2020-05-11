@@ -1,4 +1,4 @@
-# -Write a function that finds the most frequent element in an array
+"""-Write a function that finds the most frequent element in an array"""
 
 
 arr = [1, 2, 3, 4, 1, 5, 1, 7, 1, 6, 2, 9,9,9,9]

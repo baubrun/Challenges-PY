@@ -1,6 +1,7 @@
-# /*-Write a function that removes duplicates
-# in an array (assume no object or nested array)*/
-
+"""
+-Write a function that removes duplicates
+in an array (assume no object or nested array)
+"""
 
 def duplicates(arr):
 

@@ -35,12 +35,7 @@ def rotLeft(a, d):
     return a[d:] + a[:d]
 
 
-""" 
-if d > n
-def solve(a, d):
-	i = d % len(a)
-	return(a[i:] + a[:i])
-"""
+
 a = [int(i) for i in "1 2 3 4 5".split(" ")]
 
 ans = rotLeft(a, 2)

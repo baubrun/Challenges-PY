@@ -1,6 +1,8 @@
-# -Write l function that finds common elements
-# in two arrays (assume no object or nested array)
 
+"""
+-Write l function that finds common elements
+in two arrays (assume no object or nested array)
+"""
 
 def common(l1, l2):
     return [i for i in set(l1) & set(l2)]

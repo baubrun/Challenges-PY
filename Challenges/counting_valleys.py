@@ -37,7 +37,6 @@ countingValleys has the following parameter(s):
 n: the number of steps Gary takes
 s: a string describing his path
 
-only check if seal level == 0 and letter == "U"
 """
 
 def countingValleys(n, s):

@@ -24,16 +24,11 @@ The first path takes 3 jumps while the second takes 4.
 ***
 
 """
-# s = [0]
-# s = [1, 0]
 s = [0, 1, 0, 0, 0, 1, 0]
-# s = [int(i) for i in "0 0 0 0 1 0".split()]
-# s = [int(i) for i in "0 0 1 0 0 1 0".split()]
-# s = [int(i) for i in "0 1 0 1 0 0".split()]
 
-""" 
-always start with edge cases the 2 ifs
-"""
+
+# start with edge cases the 2 ifs
+
 
 
 def clouds(c):
