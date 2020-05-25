@@ -11,13 +11,13 @@ afterNYears{
     "Susan": 33,
     "Julian": 13
 }
-// ➞ 1 {
-//     "Joel": 33,
-//     "Fred": 45,
-//     "Reginald": 66,
-//     "Susan": 34,
-//     "Julian": 14
-// }
+ ➞ 1 {
+     "Joel": 33,
+     "Fred": 45,
+     "Reginald": 66,
+     "Susan": 34,
+     "Julian": 14
+ }
 
 
 Notes
@@ -41,5 +41,5 @@ afterNYears = {
 }
 
 
-ans = ageing(afterNYears, 5)
-print(ans)
+# ans = ageing(afterNYears, 5)
+# print(ans)

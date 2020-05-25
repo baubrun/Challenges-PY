@@ -8,17 +8,15 @@ if the input is 4 then your function should
 return 10 because 1 + 2 + 3 + 4 = 10.
 
 Examples
-addUp(4) ➞ 10
+add_up(4) ➞ 10
 
-addUp(13) ➞ 91
+add_up(13) ➞ 91
 
-addUp(600) ➞ 180300
+add_up(600) ➞ 180300
 """
-def addUp(num):
+def add_up(num):
     ans = 0
     for i in range(num + 1):
         ans += i
     return ans
 
-ans = addUp(4)
-print(ans)    
