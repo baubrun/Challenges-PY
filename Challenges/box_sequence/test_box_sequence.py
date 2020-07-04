@@ -1,5 +1,5 @@
 import pytest
-from alegra_sequence_boxes import box_seq
+from box_sequence import box_seq
 
 
 @pytest.mark.parametrize("x, result",
